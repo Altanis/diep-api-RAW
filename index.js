@@ -104,7 +104,7 @@
 				WebSocket.lastPing = Date.now();
 				break;
 			case 0x07:
-				WebSocket.send(shuffler.serverbound(new Writer().vu(2).string('imgay4abc').out()));
+				WebSocket.send(shuffler.serverbound(new Writer().vu(2).string('bot').out()));
 				break;
 		}
 	});
